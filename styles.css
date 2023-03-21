@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+#container{
+    background:url("./assets/papelfundo.jpg");
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+header{
+    padding: 28px 56px;
+}
+select {
+    background-color: #303030;
+    border: none;
+    padding: 7px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    float: right;
+    margin-right: 15px;
+  }
+
+.access{
+    background-color: #e50914;
+    border: none;
+    padding: 7px 17px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    float: right;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+}
+.watch{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.second{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#form{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    height: 50px;
+}
+
+input{
+    width: 500px;
+    padding-left: 10px;
+    color: #000;
+}
+
+.email-button{
+    width: 250px;
+    align-items: center;
+    background-color: #e50914;
+    font-size: 20px;
+    border: 0;
+}
+
+.baseboard{
+    background-color: #000;
+    border-top: 10px solid #303030;
+    padding: 100px 0;
+}
+
+h2{
+ font-size: 35px;
+ text-align: center;
+}
+
+#questions{
+    width: 600px;
+    background-color: #303030;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img-question{
+    float: right;
+    margin-top: 5px;
+    transform: rotate(45deg);
+}
+
+#img-question-girar{
+    float: right;
+    margin-top: 5px;
+    transform: rotate(90deg);
+}
+
+
+
+#response{
+    width: 600px;
+    background-color: #303030;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    padding: 15px;
+    font-size: 18px;
+    display: none;
+}
+
+.childish{
+background-color: #000;
+border-top: 10px solid #303030;
+display: flex;
+}
+.child{
+    margin-left: 10px;
+}
+
+.description{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.img-child{
+margin: 70px;
+}

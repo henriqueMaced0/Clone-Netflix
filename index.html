@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="assets/netflix.icon.png" type="image/x-icon">
+    <title>Clone Netflix</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="./assets/netflix.svg" alt="soon-netflix" />
+            <button class="access">Entrar</button>
+            <select id="lang-selector">
+                <option value="pt">🌎
+                    Português</option>
+            </select>
+        </header>
+        <section>
+            <div>
+                <h1>Filmes, Séries e muito mais. Sem limites.</h1>
+                <h3 class="watch">Assista onde quiser.Cancele quando quiser.</h3>
+                <h3 class="second">Quer assistir? informe seu email para criar ou reiniciar sua assinatura.</h3>
+                <div id="form">
+                    <input placeholder="email">
+                    <button class="email-button">Vamos lá <img  src="./assets/seta.svg" height="18" width="18" alt="arrow">
+                    </button>
+                </div>
+            </div>
+    </div>
+    </section>
+    <div class="childish">
+        <div>
+            <h1 class="child">Crie perfis para <br />crianças.</h1>
+            <p class="description">
+                Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem
+                pagar a
+                mais por isso.
+            </p>
+        </div>
+        <img class="img-child" src="./assets/criança.jpg" />
+    </div>
+    <div class="baseboard">
+        <h2>Perguntas frequentes</h2>
+        <button id="questions" onclick="abre()">O que é a Netflix ? <img id="img-question" src="./assets/x.svg"
+                height="18" width="18"></button>
+        <div id="response">
+            <p>
+                A Netflix é um serviço de streaming que oferece uma ampla variedade de séries, filmes e documentários
+                premiados em milhares de aparelhos conectados à internet.
+            </p>
+            <br />
+            <p>
+                Você pode assistir a quantos filmes e séries quiser, quando e onde quiser tudo por um preço mensal
+                acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.
+            </p>
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
